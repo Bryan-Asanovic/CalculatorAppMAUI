@@ -37,8 +37,7 @@
         {
             int number1 = Convert.ToInt32(Input1.Text);
             int number2 = Convert.ToInt32(Input2.Text);
-            ResultLabel.Text = $"{number1} % {number2} = (number1 % number2)";
+            ResultLabel.Text = $"{number1} % {number2} = {(number1 % number2)}";
         }
     }
-
 }
